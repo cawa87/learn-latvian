@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --color-cobalt: #2563EB;
+  --color-emerald-brand: #059669;
+  --color-amber-brand: #D97706;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bento-surface {
+  background-color: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 10px 30px -18px rgba(15, 23, 42, 0.14);
+}
+
+.dark .bento-surface {
+  background-color: rgba(17, 24, 39, 0.86);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 16px 36px -22px rgba(0, 0, 0, 0.65);
+}
+
+.glass-header {
+  background-color: rgba(248, 250, 252, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.dark .glass-header {
+  background-color: rgba(11, 17, 32, 0.88);
+}
+
+.glass-bottom-bar {
+  background-color: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.dark .glass-bottom-bar {
+  background-color: rgba(11, 17, 32, 0.96);
+}
+
+@keyframes waveBar {
+  0%, 100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.animate-wave-1 {
+  animation: waveBar 0.7s ease-in-out infinite;
+}
+.animate-wave-2 {
+  animation: waveBar 0.7s ease-in-out 0.15s infinite;
+}
+.animate-wave-3 {
+  animation: waveBar 0.7s ease-in-out 0.3s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-wave-1,
+  .animate-wave-2,
+  .animate-wave-3 {
+    animation: none;
+  }
+}

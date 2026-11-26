@@ -1,0 +1,19 @@
+services:
+  latvian-tutor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: latvian-tutor
+    ports:
+      - "${PORT:-3000}:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATA_DIR: /app/data
+      DEV_BYPASS_AUTH: "${DEV_BYPASS_AUTH:-true}"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

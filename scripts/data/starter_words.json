@@ -1,0 +1,1202 @@
+[
+  {
+    "frequency_rank": 1,
+    "latvian": "būt",
+    "russian": "быть, находиться",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Неправильный глагол. Наст.: esmu, esi, ir, esam, esat, ir; прош.: biju, biji, bija; буд.: būšu, būsi, būs.",
+    "fallback_example_lv": "Šodien Rīgā ir ļoti skaista diena.",
+    "fallback_example_ru": "Сегодня в Риге очень красивый день.",
+    "image_query": "riga old town sunny day"
+  },
+  {
+    "frequency_rank": 2,
+    "latvian": "iet",
+    "russian": "идти, ходить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Неправильный глагол. Наст.: eju, ej, iet, ejam, ejat, iet; прош.: gāju; буд.: iešu. Часто используется с предлогами uz + вин. п. или pa + вин. п.",
+    "fallback_example_lv": "Es eju uz Rimi pēc maizes.",
+    "fallback_example_ru": "Я иду в Rimi за хлебом.",
+    "image_query": "walking street riga city"
+  },
+  {
+    "frequency_rank": 3,
+    "latvian": "māja",
+    "russian": "дом, здание",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (основа на -a). Мн. ч. mājas также означает «дома» (mājās — дома, mājās/uz mājām — домой).",
+    "fallback_example_lv": "Mana māja atrodas netālu no parka.",
+    "fallback_example_ru": "Мой дом находится недалеко от парка.",
+    "image_query": "cozy wooden house latvia"
+  },
+  {
+    "frequency_rank": 4,
+    "latvian": "diena",
+    "russian": "день",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Род. п.: dienas, дат.: dienai, вин.: dienu, местн.: dienā. Выражение: Labdien! — Добрый день!",
+    "fallback_example_lv": "Katra diena sākas ar tasi kafijas.",
+    "fallback_example_ru": "Каждый день начинается с чашки кофе.",
+    "image_query": "morning sunrise city street"
+  },
+  {
+    "frequency_rank": 5,
+    "latvian": "cilvēks",
+    "russian": "человек",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: cilvēka, дат.: cilvēkam, вин.: cilvēku, местн.: cilvēkā; мн. ч.: cilvēki.",
+    "fallback_example_lv": "Centrā vakarā ir daudz cilvēku.",
+    "fallback_example_ru": "В центре вечером много людей.",
+    "image_query": "people walking european plaza"
+  },
+  {
+    "frequency_rank": 6,
+    "latvian": "darbs",
+    "russian": "работа, дело",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Местн. п.: darbā (на работе), вин. п.: darbu. Выражение: iet uz darbu — идти на работу.",
+    "fallback_example_lv": "Pēc darba mēs ejam uz kafejnīcu.",
+    "fallback_example_ru": "После работы мы идём в кафе.",
+    "image_query": "modern office desk laptop"
+  },
+  {
+    "frequency_rank": 7,
+    "latvian": "laiks",
+    "russian": "время; погода",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Имеет два частых значения: «время» (man nav laika) и «погода» (labs laiks). В местн. п.: laikā (во время).",
+    "fallback_example_lv": "Man šodien nav daudz brīva laika.",
+    "fallback_example_ru": "У меня сегодня не так много свободного времени.",
+    "image_query": "clock tower riga weather"
+  },
+  {
+    "frequency_rank": 8,
+    "latvian": "iela",
+    "russian": "улица",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Вин. п.: ielu (pa ielu — по улице), местн. п.: ielā (uz ielas / Brīvības ielā — на улице Свободы).",
+    "fallback_example_lv": "Mēs ejam pa klusu Vecrīgas ielu.",
+    "fallback_example_ru": "Мы идём по тихой улице Старой Риги.",
+    "image_query": "cobblestone street old riga"
+  },
+  {
+    "frequency_rank": 9,
+    "latvian": "gribēt",
+    "russian": "хотеть",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-ēt). Наст.: gribu, gribi, grib, gribam, gribat; прош.: gribēju; буд.: gribēšu. Сочетается с инфинитивом или вин. п.",
+    "fallback_example_lv": "Es gribu izdzert karstu kafiju.",
+    "fallback_example_ru": "Я хочу выпить горячий кофе.",
+    "image_query": "person choosing coffee cafe"
+  },
+  {
+    "frequency_rank": 10,
+    "latvian": "varēt",
+    "russian": "мочь, уметь",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-ēt). Наст.: varu, vari, var, varam, varat; прош.: varēju; буд.: varēšu. Модальный глагол, требует инфинитива.",
+    "fallback_example_lv": "Vai tu vari man palīdzēt ar somu?",
+    "fallback_example_ru": "Ты можешь помочь мне с сумкой?",
+    "image_query": "helpful friend gesture cafe"
+  },
+  {
+    "frequency_rank": 11,
+    "latvian": "zināt",
+    "russian": "знать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-āt). Наст.: zinu, zini, zina, zinām, zināt; прош.: zināju; буд.: zināšu.",
+    "fallback_example_lv": "Es zinu, kur atrodas šī iela.",
+    "fallback_example_ru": "Я знаю, где находится эта улица.",
+    "image_query": "city map navigation hands"
+  },
+  {
+    "frequency_rank": 12,
+    "latvian": "labs",
+    "russian": "хороший, добрый",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. род labs / labais, жен. род laba / labā. Наречие: labi (хорошо). Сравн. ст.: labāks.",
+    "fallback_example_lv": "Šajā veikalā ir ļoti laba maize.",
+    "fallback_example_ru": "В этом магазине очень хороший хлеб.",
+    "image_query": "fresh artisan bread bakery"
+  },
+  {
+    "frequency_rank": 13,
+    "latvian": "liels",
+    "russian": "большой, крупный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. род liels / lielais, жен. род liela / lielā. Сравн. ст.: lielāks; превосх.: vislielākais.",
+    "fallback_example_lv": "Rīgas tirgus ir liels un dzīvs.",
+    "fallback_example_ru": "Рижский рынок большой и оживлённый.",
+    "image_query": "riga central market building"
+  },
+  {
+    "frequency_rank": 14,
+    "latvian": "mazs",
+    "russian": "маленький, небольшой",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. род mazs / mazais, жен. род maza / mazā. Сравн. ст.: mazāks. Наречие количества: maz (мало).",
+    "fallback_example_lv": "Stūrī ir maza, mājīga kafejnīca.",
+    "fallback_example_ru": "На углу есть маленькое, уютное кафе.",
+    "image_query": "small cozy corner cafe"
+  },
+  {
+    "frequency_rank": 15,
+    "latvian": "jauns",
+    "russian": "новый; молодой",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. род jauns / jaunais, жен. род jauna / jaunā. Означает и «новый», и «молодой».",
+    "fallback_example_lv": "Es katru dienu mācos jaunus vārdus.",
+    "fallback_example_ru": "Я каждый день учу новые слова.",
+    "image_query": "new notebook pen desk"
+  },
+  {
+    "frequency_rank": 16,
+    "latvian": "vecāks",
+    "russian": "старше; родитель (мн. vecāki)",
+    "part_of_speech": "прил.",
+    "grammar_note": "Сравн. степень от vecs (старый). В мн. ч. vecāki употребляется как существительное «родители» (I скл. мн. ч.).",
+    "fallback_example_lv": "Mani vecāki dzīvo netālu no jūras.",
+    "fallback_example_ru": "Мои родители живут недалеко от моря.",
+    "image_query": "family walking beach baltic"
+  },
+  {
+    "frequency_rank": 17,
+    "latvian": "darīt",
+    "russian": "делать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-īt). Наст.: daru, dari, dara, darām, darāt; прош.: darīju; буд.: darīšu. Вопрос: Ko tu dari?",
+    "fallback_example_lv": "Ko tu parasti dari brīvdienās?",
+    "fallback_example_ru": "Что ты обычно делаешь на выходных?",
+    "image_query": "person relaxing weekend park"
+  },
+  {
+    "frequency_rank": 18,
+    "latvian": "redzēt",
+    "russian": "видеть",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-ēt). Наст.: redzu, redzi, redz, redzam, redzat; прош.: redzēju; буд.: redzēšu. Требует вин. п.",
+    "fallback_example_lv": "No loga es redzu zaļu parku.",
+    "fallback_example_ru": "Из окна я вижу зелёный парк.",
+    "image_query": "view from window green park"
+  },
+  {
+    "frequency_rank": 19,
+    "latvian": "runāt",
+    "russian": "говорить, разговаривать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "II спряжение (-āt). Наст.: runāju, runā, runā, runājam, runājat; прош.: runāju; буд.: runāšu. «По-латышски» — latviski.",
+    "fallback_example_lv": "Es cenšos katru dienu runāt latviski.",
+    "fallback_example_ru": "Я стараюсь каждый день говорить по-латышски.",
+    "image_query": "two people talking cafe"
+  },
+  {
+    "frequency_rank": 20,
+    "latvian": "dzīvot",
+    "russian": "жить, проживать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "II спряжение (-ot). Наст.: dzīvoju, dzīvo, dzīvo, dzīvojam; прош.: dzīvoju; буд.: dzīvošu. Употребляется с местн. п. (Rīgā).",
+    "fallback_example_lv": "Mēs dzīvojam Rīgā jau trīs gadus.",
+    "fallback_example_ru": "Мы живём в Риге уже три года.",
+    "image_query": "riga apartment buildings aerial"
+  },
+  {
+    "frequency_rank": 21,
+    "latvian": "strādāt",
+    "russian": "работать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "II спряжение (-āt). Наст.: strādāju, strādā, strādājam; прош.: strādāju; буд.: strādāšu.",
+    "fallback_example_lv": "Viņš strādā birojā pilsētas centrā.",
+    "fallback_example_ru": "Он работает в офисе в центре города.",
+    "image_query": "person working coworking space"
+  },
+  {
+    "frequency_rank": 22,
+    "latvian": "pirkt",
+    "russian": "покупать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: pērku, pērc, pērk, pērkam; прош.: pirku; буд.: pirkšu. Чередование корня i → ē в настоящем времени.",
+    "fallback_example_lv": "Veikalā es pērku pienu un ābolus.",
+    "fallback_example_ru": "В магазине я покупаю молоко и яблоки.",
+    "image_query": "grocery shopping basket apples"
+  },
+  {
+    "frequency_rank": 23,
+    "latvian": "ēst",
+    "russian": "есть, кушать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: ēdu, ēd, ēd, ēdam; прош.: ēdu; буд.: ēdīšu. В основе восстанавливается -d-.",
+    "fallback_example_lv": "Brokastīs es bieži ēdu biezpienu.",
+    "fallback_example_ru": "На завтрак я часто ем творог.",
+    "image_query": "healthy breakfast bowl table"
+  },
+  {
+    "frequency_rank": 24,
+    "latvian": "dzert",
+    "russian": "пить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: dzeru, dzer, dzer, dzeram; прош.: dzēru; буд.: dzeršu. Удлинение гласного e → ē в прошедшем времени.",
+    "fallback_example_lv": "No rīta es dzeru tēju ar citronu.",
+    "fallback_example_ru": "Утром я пью чай с лимоном.",
+    "image_query": "hot tea cup lemon morning"
+  },
+  {
+    "frequency_rank": 25,
+    "latvian": "nākt",
+    "russian": "приходить, идти сюда",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: nāku, nāc, nāk, nākam; прош.: nācu; буд.: nākšu. Чередование k → c во 2-м л. ед. ч. и прош. времени.",
+    "fallback_example_lv": "Autobuss nāk pēc piecām minūtēm.",
+    "fallback_example_ru": "Автобус придёт через пять минут.",
+    "image_query": "city bus stop waiting"
+  },
+  {
+    "frequency_rank": 26,
+    "latvian": "braukt",
+    "russian": "ехать, ездить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: braucu, brauc, brauc, braucam; прош.: braucu; буд.: braukšu. Транспорт передаётся предлогом ar + вин. п.",
+    "fallback_example_lv": "Uz darbu es braucu ar tramvaju.",
+    "fallback_example_ru": "На работу я езжу на трамвае.",
+    "image_query": "riga tram street urban"
+  },
+  {
+    "frequency_rank": 27,
+    "latvian": "ūdens",
+    "russian": "вода",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (исключение на -ens). Род. п.: ūdens, дат.: ūdenim, вин.: ūdeni, местн.: ūdenī.",
+    "fallback_example_lv": "Lūdzu, glāzi gāzēta ūdens.",
+    "fallback_example_ru": "Пожалуйста, стакан газированной воды.",
+    "image_query": "glass sparkling water restaurant"
+  },
+  {
+    "frequency_rank": 28,
+    "latvian": "kafija",
+    "russian": "кофе",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Род. п.: kafijas, дат.: kafijai, вин.: kafiju. В латышском «кофе» женского рода (karsta kafija).",
+    "fallback_example_lv": "Vai jūs dzerat kafiju ar pienu?",
+    "fallback_example_ru": "Вы пьёте кофе с молоком?",
+    "image_query": "latte art coffee cup cafe"
+  },
+  {
+    "frequency_rank": 29,
+    "latvian": "maize",
+    "russian": "хлеб",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, V склонение (-e). Род. п.: maizes, дат.: maizei, вин.: maizi, местн.: maizē. Rupjmaize — ржаной хлеб.",
+    "fallback_example_lv": "Latvijas rupjmaize ir ļoti garšīga.",
+    "fallback_example_ru": "Латвийский ржаной хлеб очень вкусный.",
+    "image_query": "dark rye bread slices"
+  },
+  {
+    "frequency_rank": 30,
+    "latvian": "veikals",
+    "russian": "магазин",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Вин. п.: veikalu (uz veikalu — в магазин), местн. п.: veikalā (в магазине).",
+    "fallback_example_lv": "Veikals ir atvērts līdz desmitiem vakarā.",
+    "fallback_example_ru": "Магазин открыт до десяти вечера.",
+    "image_query": "modern grocery store interior"
+  },
+  {
+    "frequency_rank": 31,
+    "latvian": "nauda",
+    "russian": "деньги",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a), употребляется только в ед. числе! Род. п.: naudas, вин. п.: naudu.",
+    "fallback_example_lv": "Man makā ir tikai skaidra nauda.",
+    "fallback_example_ru": "У меня в кошельке только наличные деньги.",
+    "image_query": "wallet euro coins cafe"
+  },
+  {
+    "frequency_rank": 32,
+    "latvian": "cena",
+    "russian": "цена",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Род. п.: cenas, вин. п.: cenu, мн. ч.: cenas. Par labu cenu — по хорошей цене.",
+    "fallback_example_lv": "Šodien kafijai ir ļoti laba cena.",
+    "fallback_example_ru": "Сегодня на кофе очень хорошая цена.",
+    "image_query": "price tag coffee shop menu"
+  },
+  {
+    "frequency_rank": 33,
+    "latvian": "pilsēta",
+    "russian": "город",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Местн. п.: pilsētā (в городе), род. п.: pilsētas (pilsētas centrs — центр города).",
+    "fallback_example_lv": "Rīga ir skaista pilsēta pie Daugavas.",
+    "fallback_example_ru": "Рига — красивый город на Даугаве.",
+    "image_query": "riga skyline daugava river"
+  },
+  {
+    "frequency_rank": 34,
+    "latvian": "draugs",
+    "russian": "друг",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Мн. ч.: draugi. Женский род: draudzene (подруга, V скл.).",
+    "fallback_example_lv": "Vakarā es tiekos ar draugu centrā.",
+    "fallback_example_ru": "Вечером я встречаюсь с другом в центре.",
+    "image_query": "friends meeting city street"
+  },
+  {
+    "frequency_rank": 35,
+    "latvian": "ģimene",
+    "russian": "семья",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, V склонение (-e). Род. п.: ģimenes, дат.: ģimenei, вин.: ģimeni, местн.: ģimenē.",
+    "fallback_example_lv": "Svētdienās mēs pusdienojam kopā ar ģimeni.",
+    "fallback_example_ru": "По воскресеньям мы обедаем вместе с семьёй.",
+    "image_query": "family dinner warm home"
+  },
+  {
+    "frequency_rank": 36,
+    "latvian": "vārds",
+    "russian": "слово; имя",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Означает и «слово», и «имя» (Kā tevi sauc? / Kāds ir tavs vārds?). Мн. ч.: vārdi.",
+    "fallback_example_lv": "Šis latviešu vārds ir viegli iegaumējams.",
+    "fallback_example_ru": "Это латышское слово легко запомнить.",
+    "image_query": "open dictionary book desk"
+  },
+  {
+    "frequency_rank": 37,
+    "latvian": "valoda",
+    "russian": "язык (речь)",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Latviešu valoda — латышский язык; krievu valoda — русский язык. Местн. п.: valodā.",
+    "fallback_example_lv": "Latviešu valoda kļūst arvien saprotamāka.",
+    "fallback_example_ru": "Латышский язык становится всё понятнее.",
+    "image_query": "language learning books notebook"
+  },
+  {
+    "frequency_rank": 38,
+    "latvian": "jautājums",
+    "russian": "вопрос",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: jautājuma, вин.: jautājumu, мн. ч.: jautājumi. Uzdot jautājumu — задать вопрос.",
+    "fallback_example_lv": "Man ir viens neliels jautājums par biļeti.",
+    "fallback_example_ru": "У меня есть один небольшой вопрос насчёт билета.",
+    "image_query": "person asking question politely"
+  },
+  {
+    "frequency_rank": 39,
+    "latvian": "atbilde",
+    "russian": "ответ",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, V склонение (-e). Род. п.: atbildes, вин.: atbildi, мн. ч.: atbildes (род. мн.: atbilžu — чередование d → ž).",
+    "fallback_example_lv": "Paldies par ātro un skaidro atbildi!",
+    "fallback_example_ru": "Спасибо за быстрый и понятный ответ!",
+    "image_query": "message reply smartphone coffee"
+  },
+  {
+    "frequency_rank": 40,
+    "latvian": "saprast",
+    "russian": "понимать, понять",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: saprotu, saproti, saprot; прош.: sapratu; буд.: sapratīšu. Чередование a → o в наст. времени.",
+    "fallback_example_lv": "Es jau labi saprotu ikdienas sarunas.",
+    "fallback_example_ru": "Я уже хорошо понимаю повседневные разговоры.",
+    "image_query": "smiling conversation understanding"
+  },
+  {
+    "frequency_rank": 41,
+    "latvian": "mācīties",
+    "russian": "учиться, изучать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Возвратный глагол III спряжения (-īties). Наст.: mācos, mācies, mācās, mācāmies; прош.: mācījos; буд.: mācīšos.",
+    "fallback_example_lv": "Es mācos latviešu valodu katru rītu.",
+    "fallback_example_ru": "Я учу латышский язык каждое утро.",
+    "image_query": "student studying morning coffee"
+  },
+  {
+    "frequency_rank": 42,
+    "latvian": "palīdzēt",
+    "russian": "помогать, помочь",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-ēt). Наст.: palīdzu, palīdzi, palīdz; прош.: palīdzēju; буд.: palīdzēšu. Управляет дательным падежом (kam? — man, draugam).",
+    "fallback_example_lv": "Kolēģis man palīdzēja sagatavot dokumentu.",
+    "fallback_example_ru": "Коллега помог мне подготовить документ.",
+    "image_query": "colleagues collaborating office laptop"
+  },
+  {
+    "frequency_rank": 43,
+    "latvian": "meklēt",
+    "russian": "искать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "II спряжение (-ēt). Наст.: meklēju, meklē, meklējam; прош.: meklēju; буд.: meklēšu. Управляет вин. п.",
+    "fallback_example_lv": "Es meklēju savas atslēgas somā.",
+    "fallback_example_ru": "Я ищу свои ключи в сумке.",
+    "image_query": "searching keys handbag"
+  },
+  {
+    "frequency_rank": 44,
+    "latvian": "atrast",
+    "russian": "найти, находить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: atrodu, atrodi, atrod; прош.: atradu; буд.: atradīšu. Возвратная форма atrasties — находиться.",
+    "fallback_example_lv": "Beidzot es atradu labu grāmatnīcu.",
+    "fallback_example_ru": "Наконец-то я нашёл хороший книжный магазин.",
+    "image_query": "cozy bookstore shelves books"
+  },
+  {
+    "frequency_rank": 45,
+    "latvian": "maksāt",
+    "russian": "платить; стоить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "II спряжение (-āt). Наст.: maksāju, maksā, maksājam; прош.: maksāju; буд.: maksāšu. Cik tas maksā? — Сколько это стоит?",
+    "fallback_example_lv": "Vai šeit var maksāt ar karti?",
+    "fallback_example_ru": "Здесь можно заплатить картой?",
+    "image_query": "contactless card payment cafe"
+  },
+  {
+    "frequency_rank": 46,
+    "latvian": "suns",
+    "russian": "собака",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (особое слово на -s). Род. п.: suņa, дат.: sunim, вин.: suni, местн.: sunī; мн. ч.: suņi (чередование n → ņ).",
+    "fallback_example_lv": "Suns priecīgi skrien pa parku.",
+    "fallback_example_ru": "Собака радостно бежит по парку.",
+    "image_query": "happy dog walking city park"
+  },
+  {
+    "frequency_rank": 47,
+    "latvian": "kaķis",
+    "russian": "кот, кошка",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (-is). Род. п.: kaķa, дат.: kaķim, вин.: kaķi; мн. ч.: kaķi.",
+    "fallback_example_lv": "Kaķis mierīgi guļ uz palodzes.",
+    "fallback_example_ru": "Кот спокойно спит на подоконнике.",
+    "image_query": "cat sleeping sunlit windowsill"
+  },
+  {
+    "frequency_rank": 48,
+    "latvian": "rīts",
+    "russian": "утро",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). No rīta — утром, rītā — в утро, Labrīt! — Доброе утро!",
+    "fallback_example_lv": "Šorīt ārā ir svaigs un dzestrs rīts.",
+    "fallback_example_ru": "Сегодня утром на улице свежее и прохладное утро.",
+    "image_query": "early morning misty street"
+  },
+  {
+    "frequency_rank": 49,
+    "latvian": "vakars",
+    "russian": "вечер",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Местн. п.: vakarā (вечером), Labvakar! — Добрый вечер!",
+    "fallback_example_lv": "Vakarā mēs skatāmies filmu mājās.",
+    "fallback_example_ru": "Вечером мы смотрим фильм дома.",
+    "image_query": "evening warm streetlights riga"
+  },
+  {
+    "frequency_rank": 50,
+    "latvian": "nakts",
+    "russian": "ночь",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, VI склонение (-s). Род. п.: nakts, дат.: naktij, вин.: nakti, местн.: naktī (ночью). Ar labu nakti! — Спокойной ночи!",
+    "fallback_example_lv": "Naktī Vecrīga izskatās īpaši skaista.",
+    "fallback_example_ru": "Ночью Старая Рига выглядит особенно красиво.",
+    "image_query": "old town night lights"
+  },
+  {
+    "frequency_rank": 51,
+    "latvian": "nedēļa",
+    "russian": "неделя",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Šonedēļ — на этой неделе, nākamnedēļ — на следующей неделе, pagājušajā nedēļā — на прошлой неделе.",
+    "fallback_example_lv": "Nākamajā nedēļā man būs atvaļinājums.",
+    "fallback_example_ru": "На следующей неделе у меня будет отпуск.",
+    "image_query": "weekly planner calendar desk"
+  },
+  {
+    "frequency_rank": 52,
+    "latvian": "gads",
+    "russian": "год",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: gada, местн.: gadā, мн. ч.: gadi. Šogad — в этом году.",
+    "fallback_example_lv": "Šogad vasara Latvijā bija ļoti silta.",
+    "fallback_example_ru": "В этом году лето в Латвии было очень тёплым.",
+    "image_query": "latvian summer meadow sun"
+  },
+  {
+    "frequency_rank": 53,
+    "latvian": "šodien",
+    "russian": "сегодня",
+    "part_of_speech": "нареч.",
+    "grammar_note": "Неизменяемое наречие времени. Образовано от šī diena (этот день).",
+    "fallback_example_lv": "Šodien mums ir svarīga tikšanās.",
+    "fallback_example_ru": "Сегодня у нас важная встреча.",
+    "image_query": "today schedule coffee notebook"
+  },
+  {
+    "frequency_rank": 54,
+    "latvian": "rīt",
+    "russian": "завтра",
+    "part_of_speech": "нареч.",
+    "grammar_note": "Неизменяемое наречие времени. Не путать с существительным rīts (утро). Parīt — послезавтра.",
+    "fallback_example_lv": "Rīt no rīta es braukšu uz Jūrmalu.",
+    "fallback_example_ru": "Завтра утром я поеду в Юрмалу.",
+    "image_query": "train platform morning sun"
+  },
+  {
+    "frequency_rank": 55,
+    "latvian": "vakar",
+    "russian": "вчера",
+    "part_of_speech": "нареч.",
+    "grammar_note": "Неизменяемое наречие времени. Не путать с существительным vakars (вечер). Aizvakar — позавчера.",
+    "fallback_example_lv": "Vakar lija lietus visu pēcpusdienu.",
+    "fallback_example_ru": "Вчера дождь шёл всю вторую половину дня.",
+    "image_query": "rainy street umbrella reflections"
+  },
+  {
+    "frequency_rank": 56,
+    "latvian": "tagad",
+    "russian": "сейчас, теперь",
+    "part_of_speech": "нареч.",
+    "grammar_note": "Неизменяемое наречие времени. Синоним в разговорной речи: šobrīd (в данный момент).",
+    "fallback_example_lv": "Tagad es esmu brīvs un varu parunāt.",
+    "fallback_example_ru": "Сейчас я свободен и могу поговорить.",
+    "image_query": "relaxed phone call bench"
+  },
+  {
+    "frequency_rank": 57,
+    "latvian": "vienmēr",
+    "russian": "всегда",
+    "part_of_speech": "нареч.",
+    "grammar_note": "Неизменяемое наречие частоты. Антоним: nekad (никогда, требует отрицания при глаголе).",
+    "fallback_example_lv": "Es vienmēr ņemu līdzi lietussargu.",
+    "fallback_example_ru": "Я всегда беру с собой зонт.",
+    "image_query": "compact umbrella bag entrance"
+  },
+  {
+    "frequency_rank": 58,
+    "latvian": "bieži",
+    "russian": "часто",
+    "part_of_speech": "нареч.",
+    "grammar_note": "Наречие от прилагательного biežs (частый, густой). Антоним: reti (редко).",
+    "fallback_example_lv": "Mēs bieži pastaigājamies gar kanālu.",
+    "fallback_example_ru": "Мы часто прогуливаемся вдоль канала.",
+    "image_query": "riga city canal park"
+  },
+  {
+    "frequency_rank": 59,
+    "latvian": "lietus",
+    "russian": "дождь",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, III склонение (-us). Род. п.: lietus, дат.: lietum, вин.: lietu, местн.: lietū. Līst lietus — идёт дождь.",
+    "fallback_example_lv": "Rīgā rudenī bieži līst lietus.",
+    "fallback_example_ru": "В Риге осенью часто идёт дождь.",
+    "image_query": "autumn rain cobblestone city"
+  },
+  {
+    "frequency_rank": 60,
+    "latvian": "saule",
+    "russian": "солнце",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, V склонение (-e). Род. п.: saules, дат.: saulei, вин.: sauli, местн.: saulē. Spīd saule — светит солнце.",
+    "fallback_example_lv": "Pēc lietus beidzot uzspīdēja saule.",
+    "fallback_example_ru": "После дождя наконец выглянуло солнце.",
+    "image_query": "sunlight breaking clouds sky"
+  },
+  {
+    "frequency_rank": 61,
+    "latvian": "vējš",
+    "russian": "ветер",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-š). Род. п.: vēja, дат.: vējam, вин.: vēju, местн.: vējā. Pūš vējš — дует ветер.",
+    "fallback_example_lv": "Pie jūras šodien pūš stiprs vējš.",
+    "fallback_example_ru": "У моря сегодня дует сильный ветер.",
+    "image_query": "windy baltic sea dunes"
+  },
+  {
+    "frequency_rank": 62,
+    "latvian": "jūra",
+    "russian": "море",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Pie jūras — у моря (род. п.), uz jūru — на море (вин. п.), jūrā — в море (местн. п.).",
+    "fallback_example_lv": "Brīvdienās mēs braucam pie jūras.",
+    "fallback_example_ru": "На выходных мы едем к морю.",
+    "image_query": "jurmala sandy beach baltic sea"
+  },
+  {
+    "frequency_rank": 63,
+    "latvian": "mežs",
+    "russian": "лес",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Местн. п.: mežā (в лесу), род. п.: meža, вин. п.: mežu.",
+    "fallback_example_lv": "Priežu mežā gaiss ir ļoti tīrs.",
+    "fallback_example_ru": "В сосновом лесу воздух очень чистый.",
+    "image_query": "latvian pine forest trail"
+  },
+  {
+    "frequency_rank": 64,
+    "latvian": "parks",
+    "russian": "парк",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Местн. п.: parkā (в парке), падеж с pa: pa parku (по парку).",
+    "fallback_example_lv": "Vērmanes parkā zied pavasara puķes.",
+    "fallback_example_ru": "В Верманском парке цветут весенние цветы.",
+    "image_query": "city park flowers spring trees"
+  },
+  {
+    "frequency_rank": 65,
+    "latvian": "kafejnīca",
+    "russian": "кафе, кофейня",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Местн. п.: kafejnīcā (в кафе), вин. п.: kafejnīcu (uz kafejnīcu — в кафе).",
+    "fallback_example_lv": "Šajā kafejnīcā cep svaigas bulciņas.",
+    "fallback_example_ru": "В этой кофейне пекут свежие булочки.",
+    "image_query": "nordic coffee shop pastries"
+  },
+  {
+    "frequency_rank": 66,
+    "latvian": "piens",
+    "russian": "молоко",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: piena, вин. п.: pienu. Auzu piens — овсяное молоко.",
+    "fallback_example_lv": "Lūdzu, kapučīno ar auzu pienu.",
+    "fallback_example_ru": "Пожалуйста, капучино с овсяным молоком.",
+    "image_query": "milk jug pouring coffee"
+  },
+  {
+    "frequency_rank": 67,
+    "latvian": "tēja",
+    "russian": "чай",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Род. п.: tējas, вин. п.: tēju. Zāļu tēja — травяной чай.",
+    "fallback_example_lv": "Vēsā vakarā ir patīkami dzert zāļu tēju.",
+    "fallback_example_ru": "Прохладным вечером приятно пить травяной чай.",
+    "image_query": "herbal tea teapot cozy"
+  },
+  {
+    "frequency_rank": 68,
+    "latvian": "siers",
+    "russian": "сыр",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: siera, вин. п.: sieru. Jāņu siers — традиционный тминный сыр.",
+    "fallback_example_lv": "Tirgū es nopirku svaigu mājas sieru.",
+    "fallback_example_ru": "На рынке я купил свежий домашний сыр.",
+    "image_query": "artisan cheese market board"
+  },
+  {
+    "frequency_rank": 69,
+    "latvian": "ābols",
+    "russian": "яблоко",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Мн. ч.: āboli, вин. мн.: ābolus, род. мн.: ābolu.",
+    "fallback_example_lv": "Rudenī dārzā ir daudz saldu ābolu.",
+    "fallback_example_ru": "Осенью в саду много сладких яблок.",
+    "image_query": "red apples wooden basket"
+  },
+  {
+    "frequency_rank": 70,
+    "latvian": "pusdienas",
+    "russian": "обед",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение, употребляется только во мн. числе! Местн. п.: pusdienās (на обед / за обедом).",
+    "fallback_example_lv": "Kur mēs šodien ēdīsim pusdienas?",
+    "fallback_example_ru": "Где мы сегодня будем обедать?",
+    "image_query": "bistro lunch plate soup"
+  },
+  {
+    "frequency_rank": 71,
+    "latvian": "brokastis",
+    "russian": "завтрак",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, VI склонение, только во мн. числе! Дат. п.: brokastīm, местн. п.: brokastīs (на завтрак).",
+    "fallback_example_lv": "Brīvdienās es gatavoju lielas brokastis.",
+    "fallback_example_ru": "По выходным я готовлю большой завтрак.",
+    "image_query": "weekend breakfast pancakes coffee"
+  },
+  {
+    "frequency_rank": 72,
+    "latvian": "vakariņas",
+    "russian": "ужин",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение, только во мн. числе! Местн. п.: vakariņās (на ужин / за ужином).",
+    "fallback_example_lv": "Vakarā es gatavošu zupu vakariņām.",
+    "fallback_example_ru": "Вечером я приготовлю суп на ужин.",
+    "image_query": "cozy dinner table candles"
+  },
+  {
+    "frequency_rank": 73,
+    "latvian": "biļete",
+    "russian": "билет",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, V склонение (-e). Род. п.: biļetes, вин. п.: biļeti, мн. ч.: biļetes.",
+    "fallback_example_lv": "Es nopirku koda biļeti telefonā.",
+    "fallback_example_ru": "Я купил электронный код-билет в телефоне.",
+    "image_query": "public transit ticket smartphone"
+  },
+  {
+    "frequency_rank": 74,
+    "latvian": "pietura",
+    "russian": "остановка",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Местн. п.: pieturā (на остановке). Nākamā pietura — следующая остановка.",
+    "fallback_example_lv": "Nākamā pietura ir Centrālā stacija.",
+    "fallback_example_ru": "Следующая остановка — Центральный вокзал.",
+    "image_query": "modern tram stop city"
+  },
+  {
+    "frequency_rank": 75,
+    "latvian": "vilciens",
+    "russian": "поезд, электричка",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Ar vilcienu — на поезде, vilcienā — в поезде.",
+    "fallback_example_lv": "Vilciens uz Jūrmalu atiet no ceturtā ceļa.",
+    "fallback_example_ru": "Электричка в Юрмалу отправляется с четвёртого пути.",
+    "image_query": "modern passenger train station"
+  },
+  {
+    "frequency_rank": 76,
+    "latvian": "autobuss",
+    "russian": "автобус",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: autobusa, вин.: autobusu, местн.: autobusā.",
+    "fallback_example_lv": "Divdesmit otrais autobuss brauc uz lidostu.",
+    "fallback_example_ru": "Двадцать второй автобус едет в аэропорт.",
+    "image_query": "city bus driving street"
+  },
+  {
+    "frequency_rank": 77,
+    "latvian": "tramvajs",
+    "russian": "трамвай",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: tramvaja, вин.: tramvaju, местн.: tramvajā.",
+    "fallback_example_lv": "Pirmais tramvajs brauc līdz Juglai.",
+    "fallback_example_ru": "Первый трамвай едет до Юглы.",
+    "image_query": "modern blue tram europe"
+  },
+  {
+    "frequency_rank": 78,
+    "latvian": "ceļš",
+    "russian": "дорога, путь",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-š). Род. п.: ceļa, дат.: ceļam, вин.: ceļu, местн.: ceļā (в пути). Pa ceļam — по пути.",
+    "fallback_example_lv": "Ceļš uz darbu man aizņem divdesmit minūtes.",
+    "fallback_example_ru": "Дорога на работу занимает у меня двадцать минут.",
+    "image_query": "scenic road trees morning"
+  },
+  {
+    "frequency_rank": 79,
+    "latvian": "tilts",
+    "russian": "мост",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Pāri tiltam — через мост (дат. п.), uz tilta — на мосту (род. п.).",
+    "fallback_example_lv": "No Akmens tilta paveras skaists skats uz Vecrīgu.",
+    "fallback_example_ru": "С Каменного моста открывается красивый вид на Старую Ригу.",
+    "image_query": "stone bridge river city"
+  },
+  {
+    "frequency_rank": 80,
+    "latvian": "grāmata",
+    "russian": "книга",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Род. п.: grāmatas, вин.: grāmatu, местн.: grāmatā; мн. ч.: grāmatas.",
+    "fallback_example_lv": "Es pašlaik lasu interesantu grāmatu latviski.",
+    "fallback_example_ru": "Я сейчас читаю интересную книгу по-латышски.",
+    "image_query": "open book cozy armchair"
+  },
+  {
+    "frequency_rank": 81,
+    "latvian": "lasīt",
+    "russian": "читать; собирать (ягоды)",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-īt). Наст.: lasu, lasi, lasa, lasām; прош.: lasīju; буд.: lasīšu.",
+    "fallback_example_lv": "Vakarā pirms miega es lasu ziņas un grāmatas.",
+    "fallback_example_ru": "Вечером перед сном я читаю новости и книги.",
+    "image_query": "reading book evening lamp"
+  },
+  {
+    "frequency_rank": 82,
+    "latvian": "rakstīt",
+    "russian": "писать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-īt). Наст.: rakstu, raksti, raksta, rakstām; прош.: rakstīju; буд.: rakstīšu.",
+    "fallback_example_lv": "Es rakstu e-pastu kolēģim par tikšanos.",
+    "fallback_example_ru": "Я пишу электронное письмо коллеге о встрече.",
+    "image_query": "writing notebook laptop desk"
+  },
+  {
+    "frequency_rank": 83,
+    "latvian": "klausīties",
+    "russian": "слушать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Возвратный глагол III спряжения (-īties). Наст.: klausos, klausies, klausās; прош.: klausījos; буд.: klausīšos. Требует вин. п.",
+    "fallback_example_lv": "Ceļā uz darbu es klausos latviešu podkāstu.",
+    "fallback_example_ru": "По дороге на работу я слушаю латышский подкаст.",
+    "image_query": "headphones listening podcast walk"
+  },
+  {
+    "frequency_rank": 84,
+    "latvian": "skatīties",
+    "russian": "смотреть",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Возвратный глагол III спряжения (-īties). Наст.: skatos, skaties, skatās; прош.: skatījos. Skatīties uz + вин. п. (смотреть на) или просто вин. п. (фильм).",
+    "fallback_example_lv": "Mēs skatāmies jaunu latviešu filmu.",
+    "fallback_example_ru": "Мы смотрим новый латышский фильм.",
+    "image_query": "watching cinema movie screen"
+  },
+  {
+    "frequency_rank": 85,
+    "latvian": "gaidīt",
+    "russian": "ждать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-īt). Наст.: gaidu, gaidi, gaida, gaidām; прош.: gaidīju; буд.: gaidīšu. Управляет вин. п.",
+    "fallback_example_lv": "Es gaidu draugu pie Laimas pulksteņa.",
+    "fallback_example_ru": "Я жду друга у часов «Лайма».",
+    "image_query": "waiting meeting city landmark"
+  },
+  {
+    "frequency_rank": 86,
+    "latvian": "domāt",
+    "russian": "думать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "II спряжение (-āt). Наст.: domāju, domā, domājam; прош.: domāju; буд.: domāšu. Domāt par + вин. п. — думать о.",
+    "fallback_example_lv": "Ko tu domā par šo ideju?",
+    "fallback_example_ru": "Что ты думаешь об этой идее?",
+    "image_query": "thinking coffee notebook window"
+  },
+  {
+    "frequency_rank": 87,
+    "latvian": "ticēt",
+    "russian": "верить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "III спряжение (-ēt). Наст.: ticu, tici, tic; прош.: ticēju; буд.: ticēšu. Управляет дательным падежом (kam?).",
+    "fallback_example_lv": "Es ticu, ka mums viss izdosies.",
+    "fallback_example_ru": "Я верю, что у нас всё получится.",
+    "image_query": "optimistic sunrise over city"
+  },
+  {
+    "frequency_rank": 88,
+    "latvian": "patikt",
+    "russian": "нравиться",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: patīku, patīc, patīk; прош.: patiku; буд.: patikšu. Тот, кому нравится, стоит в дат. п.: Man patīk Rīga.",
+    "fallback_example_lv": "Man ļoti patīk pastaigas gar jūru.",
+    "fallback_example_ru": "Мне очень нравятся прогулки вдоль моря.",
+    "image_query": "smiling person beach sunset"
+  },
+  {
+    "frequency_rank": 89,
+    "latvian": "vajadzēt",
+    "russian": "быть нужным, требоваться",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Безличный глагол III спр.: наст. vajag, прош. vajadzēja, буд. vajadzēs. Кому нужно — в дат. п.: Man vajag palīdzību.",
+    "fallback_example_lv": "Man vajag nopirkt jaunu mēteli rudenim.",
+    "fallback_example_ru": "Мне нужно купить новое пальто на осень.",
+    "image_query": "autumn coat boutique window"
+  },
+  {
+    "frequency_rank": 90,
+    "latvian": "sākt",
+    "russian": "начинать, начать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: sāku, sāc, sāk; прош.: sāku; буд.: sākšu. Возвратное sākties — начинаться.",
+    "fallback_example_lv": "Darba diena sākas pulksten deviņos.",
+    "fallback_example_ru": "Рабочий день начинается в девять часов.",
+    "image_query": "morning start desk coffee"
+  },
+  {
+    "frequency_rank": 91,
+    "latvian": "beigt",
+    "russian": "заканчивать, кончить",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: beidzu, beidz, beidz; прош.: beidzu; буд.: beigšu. Чередование g → dz.",
+    "fallback_example_lv": "Piektdien es beidzu darbu agrāk.",
+    "fallback_example_ru": "В пятницу я заканчиваю работу раньше.",
+    "image_query": "closing laptop friday afternoon"
+  },
+  {
+    "frequency_rank": 92,
+    "latvian": "ņemt",
+    "russian": "брать, взять",
+    "part_of_speech": "глаг.",
+    "grammar_note": "I спряжение. Наст.: ņemu, ņem, ņem, ņemam; прош.: ņēmu; буд.: ņemšu. Ņemt līdzi — брать с собой.",
+    "fallback_example_lv": "Es ņemšu kafiju līdzi.",
+    "fallback_example_ru": "Я возьму кофе с собой.",
+    "image_query": "takeaway coffee cup hand"
+  },
+  {
+    "frequency_rank": 93,
+    "latvian": "dot",
+    "russian": "давать, дать",
+    "part_of_speech": "глаг.",
+    "grammar_note": "Неправильный глагол. Наст.: dodu, dod, dod, dodam; прош.: devu; буд.: došu. Кому — в дат. п., что — в вин. п.",
+    "fallback_example_lv": "Lūdzu, dod man čeku un maisiņu.",
+    "fallback_example_ru": "Пожалуйста, дай мне чек и пакет.",
+    "image_query": "handing paper bag bakery"
+  },
+  {
+    "frequency_rank": 94,
+    "latvian": "skaists",
+    "russian": "красивый, прекрасный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. skaists / skaistais, жен. skaista / skaistā. Сравн. ст.: skaistāks.",
+    "fallback_example_lv": "Siguldā rudenī ir ļoti skaisti koki.",
+    "fallback_example_ru": "В Сигулде осенью очень красивые деревья.",
+    "image_query": "sigulda autumn golden trees"
+  },
+  {
+    "frequency_rank": 95,
+    "latvian": "silts",
+    "russian": "тёплый",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. silts, жен. silta. Антоним: auksts (холодный). Наречие: silti (тепло).",
+    "fallback_example_lv": "Šodien ir pārsteidzoši silts vakars.",
+    "fallback_example_ru": "Сегодня удивительно тёплый вечер.",
+    "image_query": "warm golden hour sunset park"
+  },
+  {
+    "frequency_rank": 96,
+    "latvian": "auksts",
+    "russian": "холодный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. auksts, жен. auksta. Наречие: auksti (холодно: Man ir auksti — Мне холодно).",
+    "fallback_example_lv": "Ziemā Rīgā mēdz būt ļoti auksts.",
+    "fallback_example_ru": "Зимой в Риге бывает очень холодно.",
+    "image_query": "snowy winter street riga"
+  },
+  {
+    "frequency_rank": 97,
+    "latvian": "ātrs",
+    "russian": "быстрый, скорый",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. ātrs, жен. ātra. Наречие: ātri (быстро). Антоним: lēns (медленный).",
+    "fallback_example_lv": "Šajā kafejnīcā ir ļoti ātra apkalpošana.",
+    "fallback_example_ru": "В этом кафе очень быстрое обслуживание.",
+    "image_query": "barista making espresso fast"
+  },
+  {
+    "frequency_rank": 98,
+    "latvian": "viegls",
+    "russian": "лёгкий, простой",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. viegls, жен. viegla. Наречие: viegli (легко). Антоним: grūts (трудный, тяжёлый).",
+    "fallback_example_lv": "Šis uzdevums ir diezgan viegls.",
+    "fallback_example_ru": "Это задание довольно лёгкое.",
+    "image_query": "minimalist study desk bright"
+  },
+  {
+    "frequency_rank": 99,
+    "latvian": "svarīgs",
+    "russian": "важный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. svarīgs, жен. svarīga. Наречие: svarīgi (важно).",
+    "fallback_example_lv": "Ir svarīgi atkārtot vārdus regulāri.",
+    "fallback_example_ru": "Важно регулярно повторять слова.",
+    "image_query": "highlighted notes study journal"
+  },
+  {
+    "frequency_rank": 100,
+    "latvian": "svaigs",
+    "russian": "свежий",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. svaigs, жен. svaiga. Часто сочетается с едой (svaiga maize) и воздухом (svaigs gaiss).",
+    "fallback_example_lv": "Es nopirku svaigus dārzeņus Centrāltirgū.",
+    "fallback_example_ru": "Я купил свежие овощи на Центральном рынке.",
+    "image_query": "fresh vegetables farmers market"
+  },
+  {
+    "frequency_rank": 101,
+    "latvian": "garšīgs",
+    "russian": "вкусный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. garšīgs, жен. garšīga. От существительного garša (вкус). Наречие: garšīgi.",
+    "fallback_example_lv": "Šī biešu zupa ir patiešām garšīga!",
+    "fallback_example_ru": "Этот свекольник действительно вкусный!",
+    "image_query": "cold beetroot soup latvian food"
+  },
+  {
+    "frequency_rank": 102,
+    "latvian": "dārgs",
+    "russian": "дорогой",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. dārgs, жен. dārga. Антоним: lēts (дешёвый). Означает и высокую цену, и «дорогой человек».",
+    "fallback_example_lv": "Šis restorāns centrā nav pārāk dārgs.",
+    "fallback_example_ru": "Этот ресторан в центре не слишком дорогой.",
+    "image_query": "bistro restaurant menu table"
+  },
+  {
+    "frequency_rank": 103,
+    "latvian": "lēts",
+    "russian": "дешёвый, недорогой",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. lēts, жен. lēta. Сравн. ст.: lētāks (дешевле). Наречие: lēti.",
+    "fallback_example_lv": "Tirgū ogas vasarā ir lētākas nekā veikalā.",
+    "fallback_example_ru": "На рынке ягоды летом дешевле, чем в магазине.",
+    "image_query": "fresh berries basket market"
+  },
+  {
+    "frequency_rank": 104,
+    "latvian": "tīrs",
+    "russian": "чистый",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. tīrs, жен. tīra. Наречие: tīri. Антоним: netīrs (грязный).",
+    "fallback_example_lv": "Pēc lietus ielas ir tīras un svaigas.",
+    "fallback_example_ru": "После дождя улицы чистые и свежие.",
+    "image_query": "clean street after rain"
+  },
+  {
+    "frequency_rank": 105,
+    "latvian": "kluss",
+    "russian": "тихий, спокойный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. kluss, жен. klusa. Наречие: klusi / klusu (тихо). Klusais centrs — Тихий центр Риги.",
+    "fallback_example_lv": "Klusajā centrā ir daudz skaistu jūgendstila ēku.",
+    "fallback_example_ru": "В Тихом центре много красивых зданий в стиле модерн.",
+    "image_query": "riga art nouveau architecture"
+  },
+  {
+    "frequency_rank": 106,
+    "latvian": "brīvs",
+    "russian": "свободный",
+    "part_of_speech": "прил.",
+    "grammar_note": "Прилагательное: муж. brīvs, жен. brīva. Brīva vieta — свободное место, brīvais laiks — свободное время.",
+    "fallback_example_lv": "Vai šis galdiņš pie loga ir brīvs?",
+    "fallback_example_ru": "Этот столик у окна свободен?",
+    "image_query": "empty cafe table by window"
+  },
+  {
+    "frequency_rank": 107,
+    "latvian": "galds",
+    "russian": "стол",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Uz galda — на столе (род. п.), pie galda — за столом. Уменьш.: galdiņš (столик).",
+    "fallback_example_lv": "Uz galda stāv kafija un svaiga avīze.",
+    "fallback_example_ru": "На столе стоит кофе и свежая газета.",
+    "image_query": "wooden table coffee newspaper"
+  },
+  {
+    "frequency_rank": 108,
+    "latvian": "logs",
+    "russian": "окно",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Род. п.: loga (pie loga — у окна), вин.: logu, местн.: logā.",
+    "fallback_example_lv": "Lūdzu, atver logu, istabā ir karsti.",
+    "fallback_example_ru": "Пожалуйста, открой окно, в комнате жарко.",
+    "image_query": "open window sunlight curtains"
+  },
+  {
+    "frequency_rank": 109,
+    "latvian": "durvis",
+    "russian": "дверь, двери",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, VI склонение, употребляется только во мн. числе! Род. п.: durvju, дат.: durvīm, вин.: durvis.",
+    "fallback_example_lv": "Aizver durvis, lūdzu, ārā ir vējš.",
+    "fallback_example_ru": "Закрой дверь, пожалуйста, на улице ветер.",
+    "image_query": "wooden door historic building"
+  },
+  {
+    "frequency_rank": 110,
+    "latvian": "istaba",
+    "russian": "комната",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Местн. п.: istabā (в комнате), вин. п.: istabu. Dzīvojamā istaba — гостиная.",
+    "fallback_example_lv": "Mūsu istaba ir gaiša un mājīga.",
+    "fallback_example_ru": "Наша комната светлая и уютная.",
+    "image_query": "bright scandinavian living room"
+  },
+  {
+    "frequency_rank": 111,
+    "latvian": "dzīvoklis",
+    "russian": "квартира",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (-is). Род. п.: dzīvokļa (чередование l → ļ), дат.: dzīvoklim, вин.: dzīvokli, местн.: dzīvoklī.",
+    "fallback_example_lv": "Mēs īrējam divistabu dzīvokli Āgenskalnā.",
+    "fallback_example_ru": "Мы снимаем двухкомнатную квартиру в Агенскалнсе.",
+    "image_query": "cozy apartment interior nordic"
+  },
+  {
+    "frequency_rank": 112,
+    "latvian": "atslēga",
+    "russian": "ключ",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Род. п.: atslēgas, вин.: atslēgu, мн. ч.: atslēgas.",
+    "fallback_example_lv": "Vai tu paņēmi dzīvokļa atslēgas?",
+    "fallback_example_ru": "Ты взял ключи от квартиры?",
+    "image_query": "house keys wooden table"
+  },
+  {
+    "frequency_rank": 113,
+    "latvian": "soma",
+    "russian": "сумка, рюкзак",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Местн. п.: somā (в сумке), вин. п.: somu. Mugursoma — рюкзак.",
+    "fallback_example_lv": "Mana grāmata un telefons ir somā.",
+    "fallback_example_ru": "Моя книга и телефон лежат в сумке.",
+    "image_query": "leather tote bag everyday"
+  },
+  {
+    "frequency_rank": 114,
+    "latvian": "tālrunis",
+    "russian": "телефон",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (-is). Род. п.: tālruņa (чередование n → ņ), дат.: tālrunim, местн.: tālrunī. Разг. синоним: telefons.",
+    "fallback_example_lv": "Kāds ir tavs tālruņa numurs?",
+    "fallback_example_ru": "Какой у тебя номер телефона?",
+    "image_query": "smartphone minimalist desk"
+  },
+  {
+    "frequency_rank": 115,
+    "latvian": "vēstule",
+    "russian": "письмо",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, V склонение (-e). Род. п.: vēstules, вин.: vēstuli, мн. ч.: vēstules (род. мн.: vēstuļu).",
+    "fallback_example_lv": "Es tikko saņēmu svarīgu vēstuli no bankas.",
+    "fallback_example_ru": "Я только что получил важное письмо из банка.",
+    "image_query": "envelope letter desk pen"
+  },
+  {
+    "frequency_rank": 116,
+    "latvian": "tikšanās",
+    "russian": "встреча",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Возвратное существительное жен. рода (от глагола tikties — встречаться). Неизменяемая форма в род./им. ед. ч.: tikšanās, дат.: tikšanai.",
+    "fallback_example_lv": "Mūsu tikšanās notiks pulksten trijos.",
+    "fallback_example_ru": "Наша встреча состоится в три часа.",
+    "image_query": "business meeting coffee table"
+  },
+  {
+    "frequency_rank": 117,
+    "latvian": "kolēģis",
+    "russian": "коллега",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (-is). Род. п.: kolēģa, дат.: kolēģim, вин.: kolēģi. Жен. род: kolēģe (V скл.).",
+    "fallback_example_lv": "Mans kolēģis runā trijās valodās.",
+    "fallback_example_ru": "Мой коллега говорит на трёх языках.",
+    "image_query": "friendly office colleague smiling"
+  },
+  {
+    "frequency_rank": 118,
+    "latvian": "pulkstenis",
+    "russian": "часы",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, II склонение (-is). Род. п.: pulksteņa (n → ņ). Наречие времени: pulksten (в ... часов: pulksten astoņos).",
+    "fallback_example_lv": "Cik tagad ir pulkstenis?",
+    "fallback_example_ru": "Сколько сейчас времени?",
+    "image_query": "classic clock face architecture"
+  },
+  {
+    "frequency_rank": 119,
+    "latvian": "veselība",
+    "russian": "здоровье",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Жен. род, IV склонение (-a). Uz veselību! — На здоровье! / Будь здоров! Род. п.: veselības.",
+    "fallback_example_lv": "Pastaigas svaigā gaisā ir labas veselībai.",
+    "fallback_example_ru": "Прогулки на свежем воздухе полезны для здоровья.",
+    "image_query": "jogging morning forest sunrise"
+  },
+  {
+    "frequency_rank": 120,
+    "latvian": "prieks",
+    "russian": "радость, удовольствие",
+    "part_of_speech": "сущ.",
+    "grammar_note": "Муж. род, I склонение (-s). Ar prieku — с удовольствием! Prieks iepazīties — приятно познакомиться.",
+    "fallback_example_lv": "Prieks tevi atkal redzēt Rīgā!",
+    "fallback_example_ru": "Рад снова видеть тебя в Риге!",
+    "image_query": "friends greeting happy city"
+  }
+]
