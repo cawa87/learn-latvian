@@ -23,13 +23,13 @@ export function SynthesisSection({
         <div>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-600/12 px-2.5 py-0.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-300">
             <MessageSquareText className="h-3.5 w-3.5" />
-            Синтез и мини-диалог
+            Мини-диалог
           </span>
           <h3 className="mt-2 font-display text-xl font-bold text-slate-900 dark:text-white">
-            Новые и изученные слова вместе
+            Слова урока в живой речи
           </h3>
           <p className="mt-0.5 text-sm text-slate-500 dark:text-slate-400">
-            Прочитайте связные реплики и кликните на любое выделенное слово, чтобы увидеть падеж и форму.
+            Прочитайте диалог и нажмите на любое выделенное слово, чтобы посмотреть его форму и падеж.
           </p>
         </div>
 
@@ -73,8 +73,8 @@ export function SynthesisSection({
         <AnimatedCheckbox
           checked={checked}
           onChange={onToggleChecked}
-          label="Прочитал и понял итоговые предложения"
-          sublabel="Отметьте после того, как поймёте смысл всех реплик без подсказки"
+          label="Прочитал и понял диалог"
+          sublabel="Отметьте, когда смысл всех фраз станет понятен без перевода"
         />
       </div>
     </section>

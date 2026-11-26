@@ -144,7 +144,7 @@ export function DictionaryView({ onStatsUpdated }: DictionaryViewProps) {
         </div>
 
         <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
-          Показано слов: <strong className="text-slate-700 dark:text-slate-200">{items.length}</strong>. Нажмите на любое слово, чтобы увидеть грамматическую справку и историю примеров из уроков.
+          Найдено слов: <strong className="text-slate-700 dark:text-slate-200">{items.length}</strong>. Нажмите на слово, чтобы открыть грамматику и примеры из ваших уроков.
         </p>
       </div>
 
@@ -188,9 +188,11 @@ export function DictionaryView({ onStatsUpdated }: DictionaryViewProps) {
                     </div>
 
                     <div className="flex items-center gap-2.5">
-                      <span className="hidden text-xs text-slate-500 sm:inline dark:text-slate-400">
-                        Лёгкость: {item.ease_factor.toFixed(2)}
-                      </span>
+                      {item.times_seen > 0 ? (
+                        <span className="hidden text-xs text-slate-500 sm:inline dark:text-slate-400">
+                          В уроках: {item.times_seen}×
+                        </span>
+                      ) : null}
                       {item.times_reused_in_ai > 0 ? (
                         <span className="hidden items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[11px] font-medium text-emerald-700 md:inline-flex dark:text-emerald-300">
                           <Sparkles className="h-3 w-3" />
@@ -329,8 +331,8 @@ export function DictionaryView({ onStatsUpdated }: DictionaryViewProps) {
                     {item.past_sentences[0]?.ru || item.fallback_example_ru}
                   </p>
                   <div className="flex items-center justify-between pt-1 text-[11px] text-slate-400">
-                    <span>Лёгкость: {item.ease_factor.toFixed(2)}</span>
-                    <span>В уроках: {item.times_reused_in_ai}×</span>
+                    <span>В уроках: {item.times_seen}×</span>
+                    <span>Повторений: {item.times_reused_in_ai}×</span>
                   </div>
                 </div>
               </div>

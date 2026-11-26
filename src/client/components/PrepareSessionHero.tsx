@@ -34,6 +34,15 @@ function formatRussianDate(isoDate: string): string {
   }).format(new Date(Date.UTC(y, m - 1, d)));
 }
 
+function pluralizeRu(n: number, one: string, few: string, many: string): string {
+  const mod100 = Math.abs(n) % 100;
+  const mod10 = mod100 % 10;
+  if (mod100 >= 11 && mod100 <= 19) return many;
+  if (mod10 === 1) return one;
+  if (mod10 >= 2 && mod10 <= 4) return few;
+  return many;
+}
+
 export function PrepareSessionHero({
   user,
   stats,
@@ -44,6 +53,8 @@ export function PrepareSessionHero({
   onStartSummaryTest,
 }: PrepareSessionHeroProps) {
   const themeMeta = CONTEXT_THEME_META[user.context_theme];
+  const wordsLabel = pluralizeRu(user.daily_goal, 'новое слово', 'новых слова', 'новых слов');
+  const dueLabel = pluralizeRu(stats.due_review_count, 'уже знакомое слово', 'уже знакомых слова', 'уже знакомых слов');
 
   return (
     <motion.section
@@ -64,7 +75,7 @@ export function PrepareSessionHero({
             </span>
             <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
               <Target className="h-3.5 w-3.5 text-blue-600 dark:text-blue-400" />
-              {user.daily_goal} новых слов
+              {user.daily_goal} {wordsLabel}
             </span>
             <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
               <MapPin className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
@@ -73,19 +84,20 @@ export function PrepareSessionHero({
           </div>
 
           <h1 className="font-display text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
-            Готовы к сегодняшнему уроку латышского?
+            Готовы к сегодняшнему уроку?
           </h1>
 
           <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-            Нажмите кнопку ниже — мы подберём <strong>{user.daily_goal}</strong> новых частотных слов,
+            Подберём <strong>{user.daily_goal}</strong>{' '}
+            {pluralizeRu(user.daily_goal, 'нужное слово', 'нужных слова', 'нужных слов')} на каждый день,
             {stats.due_review_count > 0
-              ? ` добавим слова на интервальное повторение (${stats.due_review_count} ждут проверки)`
-              : ' составим живые примеры с разбором падежей'}
-            {' '}и подготовим мини-диалог и конструктор предложений в теме «{themeMeta.label}».
+              ? ` освежим в памяти ${stats.due_review_count} ${dueLabel}`
+              : ' разберём их на живых примерах с падежами'}
+            {' '}и соберём небольшой диалог с заданиями по теме «{themeMeta.label}».
           </p>
 
           <p className="text-xs text-slate-500 dark:text-slate-400">
-            Вы можете изменить количество слов или контекст в панели сверху перед запуском.
+            Количество слов и тему урока можно поменять выше перед стартом.
           </p>
         </div>
 

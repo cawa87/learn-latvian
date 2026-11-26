@@ -74,6 +74,12 @@ export function SessionHistoryView({
 
   const progressTowardTest = Math.min(5, stats.sessions_since_last_test);
   const remainingForTest = Math.max(0, 5 - stats.sessions_since_last_test);
+  const remainingLessonsLabel =
+    remainingForTest === 1
+      ? '1 урок'
+      : remainingForTest >= 2 && remainingForTest <= 4
+        ? `${remainingForTest} урока`
+        : `${remainingForTest} уроков`;
 
   return (
     <section className="space-y-6">
@@ -94,7 +100,7 @@ export function SessionHistoryView({
                 Итоговый тест за 5 уроков
               </span>
               <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
-                Завершено уроков всего: {stats.completed_sessions_count}
+                Пройдено уроков: {stats.completed_sessions_count}
               </span>
             </div>
 
@@ -104,13 +110,12 @@ export function SessionHistoryView({
                 : stats.summary_test_available
                   ? 'Итоговый тест по последним 5 урокам открыт!'
                   : stats.can_retake_summary_test
-                    ? `До следующего рубежного теста: ${remainingForTest} ур.`
-                    : `Пройдите ещё ${remainingForTest} ур., чтобы открыть итоговый тест`}
+                    ? `До следующего итогового теста: ещё ${remainingLessonsLabel}`
+                    : `Пройдите ещё ${remainingLessonsLabel}, чтобы открыть итоговый тест`}
             </h2>
 
             <p className="max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-              Каждые 5 завершённых ежедневных уроков система собирает все изученные слова в единый экзамен:
-              перевод в контексте, выбор правильного падежа и сборка предложений из блоков.
+              После каждых 5 пройденных уроков открывается проверка по всем новым словам: перевод в контексте, выбор нужного падежа и сборка фраз.
             </p>
 
             <div className="flex items-center gap-2 pt-1">
@@ -194,10 +199,10 @@ export function SessionHistoryView({
       <div className="space-y-3.5">
         <div className="flex items-center justify-between">
           <h3 className="font-display text-lg font-extrabold text-slate-900 dark:text-white">
-            Прошлые ежедневные уроки
+            Пройденные уроки
           </h3>
           <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
-            Всего уроков: {sessions.length}
+            Всего: {sessions.length}
           </span>
         </div>
 

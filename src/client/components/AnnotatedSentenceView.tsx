@@ -212,7 +212,7 @@ export function AnnotatedSentenceView({
               </div>
               <div className="rounded-xl bg-white/80 px-3 py-2 dark:bg-slate-800/80">
                 <span className="block text-[11px] font-medium text-slate-500 dark:text-slate-400">
-                  Словарная форма (лемма)
+                  Начальная форма
                 </span>
                 <span className="font-display text-base font-bold text-slate-900 dark:text-white">
                   {activeAnnotation.lemma}

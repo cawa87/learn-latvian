@@ -50,7 +50,7 @@ export function WordCard({
           </span>
           <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-500 dark:bg-slate-800 dark:text-slate-400">
             <Hash className="h-3 w-3" />
-            {card.frequency_rank} в языке
+            {card.frequency_rank} в словаре
           </span>
         </div>
 
@@ -127,10 +127,10 @@ export function WordCard({
             <div className="flex flex-wrap items-center justify-between gap-2">
               <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                 <Sparkles className="h-3.5 w-3.5 text-blue-600 dark:text-blue-400" />
-                Живые примеры в контексте
+                Примеры в речи
               </span>
               <span className="text-[11px] text-slate-400 dark:text-slate-500">
-                Нажмите на выделенное слово для разбора падежа
+                Нажмите на выделенное слово, чтобы увидеть падеж
               </span>
             </div>
 
@@ -151,12 +151,12 @@ export function WordCard({
 
           <div className="space-y-2 pt-1">
             <span className="block text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-              Чек-лист закрепления
+              Отметьте по ходу изучения
             </span>
             <AnimatedCheckbox
               checked={checks.translation}
               onChange={(val) => onToggleCheck('translation', val)}
-              label="Изучил перевод и грамматику"
+              label="Разобрал перевод и грамматику"
             />
             <AnimatedCheckbox
               checked={checks.pronunciation}
@@ -166,7 +166,7 @@ export function WordCard({
             <AnimatedCheckbox
               checked={checks.forms}
               onChange={(val) => onToggleCheck('forms', val)}
-              label="Разобрал формы слов в примерах"
+              label="Посмотрел формы слов в примерах"
             />
           </div>
         </div>

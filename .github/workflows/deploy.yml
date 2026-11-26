@@ -1,0 +1,99 @@
+name: Test, Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build application
+        run: npm run build
+
+      - name: Run smoke tests
+        run: npm test
+
+  build:
+    name: Build Docker Image
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t latvian-tutor:latest .
+
+      - name: Export compressed image tarball
+        run: docker save latvian-tutor:latest | gzip -1 > latvian-tutor.tar.gz
+
+      - name: Upload image artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: latvian-tutor-image
+          path: latvian-tutor.tar.gz
+          retention-days: 1
+
+  deploy:
+    name: Update Home Server (Portainer)
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download image artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: latvian-tutor-image
+
+      - name: Decompress image tarball
+        run: gunzip -f latvian-tutor.tar.gz
+
+      - name: Upload image to Portainer
+        env:
+          PORTAINER_API_KEY: ${{ secrets.PORTAINER_API_KEY }}
+        run: |
+          curl -fsS --retry 2 --max-time 300 \
+            -X POST "https://portainer.cawa.work/api/endpoints/3/docker/images/load" \
+            -H "X-API-Key: ${PORTAINER_API_KEY}" \
+            -H "Content-Type: application/x-tar" \
+            --data-binary @latvian-tutor.tar
+
+      - name: Recreate container and verify health
+        env:
+          PORTAINER_API_KEY: ${{ secrets.PORTAINER_API_KEY }}
+          PORTAINER_URL: https://portainer.cawa.work
+          PORTAINER_ENDPOINT_ID: "3"
+          CONTAINER_NAME: latvian-tutor
+          IMAGE_NAME: latvian-tutor:latest
+          HEALTH_URL: https://learn-latvian.cawa.work/api/health
+        run: python3 scripts/deploy-portainer.py

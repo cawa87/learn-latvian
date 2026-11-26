@@ -79,7 +79,7 @@ export function MnemonicVisual({
           <Icon className="h-4 w-4" />
         </span>
         <span className="rounded-full border border-slate-900/10 bg-white/70 px-2.5 py-0.5 text-[11px] font-medium text-slate-600 dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-300">
-          Образ: {imageQuery}
+          {partOfSpeech}
         </span>
       </div>
 
@@ -88,7 +88,7 @@ export function MnemonicVisual({
           {latvian}
         </p>
         <p className="mt-0.5 text-xs font-medium text-slate-600 dark:text-slate-300">
-          Визуальная карточка • #{frequencyRank} по частотности
+          №{frequencyRank} в базовом словаре
         </p>
       </div>
     </div>

@@ -635,17 +635,6 @@ export default function App() {
           <div className="flex items-center gap-2">
             <button
               type="button"
-              onClick={() => setFeedbackOpen(true)}
-              title="Предложить идею или сообщить об ошибке"
-              aria-label="Предложить идею или сообщить об ошибке"
-              className="inline-flex h-9 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white px-2.5 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 hover:text-slate-900 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700/80 dark:hover:text-white cursor-pointer"
-            >
-              <MessageSquarePlus className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-              <span className="hidden sm:inline">Идея / Баг</span>
-            </button>
-
-            <button
-              type="button"
               onClick={() => setDarkMode((prev) => !prev)}
               aria-label={darkMode ? 'Включить светлую тему' : 'Включить тёмную тему'}
               className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-600 transition hover:text-slate-900 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:text-white cursor-pointer"
@@ -760,7 +749,7 @@ export default function App() {
               <div className="bento-surface flex flex-col items-center justify-center gap-3 rounded-3xl p-14 text-center">
                 <div className="h-10 w-10 animate-spin rounded-full border-2 border-blue-600 border-t-transparent" />
                 <p className="font-display text-base font-bold text-slate-900 dark:text-white">
-                  Загружаем состояние урока...
+                  Загружаем урок...
                 </p>
               </div>
             ) : !activeSession ? (
@@ -828,7 +817,7 @@ export default function App() {
                       }`}
                     >
                       <Layers className="h-3.5 w-3.5" />
-                      Режим фокуса
+                      По одному
                     </button>
                     <button
                       type="button"
@@ -840,7 +829,7 @@ export default function App() {
                       }`}
                     >
                       <LayoutGrid className="h-3.5 w-3.5" />
-                      Сетка слов
+                      Все сразу
                     </button>
                   </div>
                 </div>
@@ -989,17 +978,22 @@ export default function App() {
                           <h3 className="font-display text-xl font-extrabold text-slate-900 dark:text-white">
                             {isViewingPastSession
                               ? 'Повторение урока завершено!'
-                              : 'Тренировка на сегодня завершена!'}
+                              : 'Урок на сегодня завершён!'}
                           </h3>
                           <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-                            Слова закреплены в системе интервального повторения. Серия дней:{' '}
+                            Слова добавлены в ваш словарь и вернутся в нужный момент для повторения. Серия дней:{' '}
                             <strong className="text-emerald-700 dark:text-emerald-300">
                               {stats.streak_count}
                             </strong>
                             .
                             {stats.summary_test_available
                               ? ' Открыт итоговый тест по последним 5 урокам!'
-                              : ` До итогового теста за 5 уроков: ${Math.max(0, 5 - stats.sessions_since_last_test)} ур.`}
+                              : (() => {
+                                  const left = Math.max(0, 5 - stats.sessions_since_last_test);
+                                  const unit =
+                                    left === 1 ? 'урок' : left >= 2 && left <= 4 ? 'урока' : 'уроков';
+                                  return ` До итогового теста за 5 уроков: ещё ${left} ${unit}.`;
+                                })()}
                           </p>
                         </div>
                       </div>
@@ -1030,12 +1024,12 @@ export default function App() {
                         <h3 className="font-display text-lg font-bold text-slate-900 dark:text-white">
                           {isViewingPastSession
                             ? 'Завершить повторное прохождение урока'
-                            : 'Финал сегодняшней тренировки'}
+                            : 'Завершить сегодняшний урок'}
                         </h3>
                         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
                           {progressMetrics.readyToComplete
-                            ? 'Все шаги и задания выполнены! Сохраните прогресс и обновите повторение слов.'
-                            : `Выполнено ${progressMetrics.completed} из ${progressMetrics.total} шагов. Отметьте все чекбоксы и соберите предложения, чтобы открыть сохранение.`}
+                            ? 'Все шаги выполнены! Сохраните результат, чтобы закрепить слова и продлить серию.'
+                            : `Выполнено ${progressMetrics.completed} из ${progressMetrics.total} шагов. Отметьте все пункты и соберите предложения, чтобы завершить урок.`}
                         </p>
                       </div>
 
@@ -1066,6 +1060,20 @@ export default function App() {
           </div>
         )}
       </main>
+
+      <footer className="mx-auto mt-10 max-w-6xl px-4 sm:px-6">
+        <div className="flex flex-col items-center justify-between gap-3 border-t border-slate-200/75 pt-5 text-xs text-slate-500 sm:flex-row dark:border-slate-800/80 dark:text-slate-400">
+          <span>Vārdu Rīga — ежедневная практика латышского языка</span>
+          <button
+            type="button"
+            onClick={() => setFeedbackOpen(true)}
+            className="inline-flex min-h-[38px] items-center gap-2 rounded-xl border border-slate-200 bg-white px-3.5 py-1.5 text-xs font-semibold text-slate-700 transition hover:bg-slate-50 hover:text-slate-900 dark:border-slate-700 dark:bg-slate-800/90 dark:text-slate-200 dark:hover:bg-slate-700/80 dark:hover:text-white cursor-pointer"
+          >
+            <MessageSquarePlus className="h-3.5 w-3.5 text-blue-600 dark:text-blue-400" />
+            Предложить идею или сообщить об ошибке
+          </button>
+        </div>
+      </footer>
 
       <nav
         aria-label="Мобильная навигация"

@@ -109,7 +109,7 @@ export function FeedbackModal({ open, pageContext, onClose }: FeedbackModalProps
                     Спасибо! Сообщение получено
                   </h3>
                   <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-                    Мы обязательно рассмотрим ваше обращение и учтём его в обновлениях Vārdu Rīga.
+                    Всё записали — обязательно посмотрим и учтём в следующих обновлениях.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 pt-1 sm:flex-row sm:justify-center">

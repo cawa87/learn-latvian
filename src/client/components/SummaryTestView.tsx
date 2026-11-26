@@ -58,7 +58,7 @@ export function SummaryTestView({
             <div className="flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/15 px-3 py-0.5 text-xs font-semibold text-amber-800 dark:bg-amber-500/20 dark:text-amber-300">
                 <ClipboardCheck className="h-3.5 w-3.5" />
-                Итоговый экзамен (5 уроков)
+                Проверка за 5 уроков
               </span>
             </div>
 
@@ -114,7 +114,7 @@ export function SummaryTestView({
                 {Math.round((test.score / Math.max(1, test.max_score)) * 100)}%)
               </h2>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-                Коэффициенты запоминания обновлены: уверенные слова переведены ближе к «Выучено», а слова с ошибками автоматически вернутся в ближайшие уроки.
+                Прогресс обновлён: слова без ошибок закреплены, а трудные обязательно встретятся снова в ближайших уроках.
               </p>
             </div>
           </div>
@@ -245,7 +245,7 @@ export function SummaryTestView({
       {test.payload.puzzles.length > 0 ? (
         <div className="space-y-3">
           <h2 className="font-display text-lg font-extrabold text-slate-900 dark:text-white">
-            Финальная сборка предложений
+            Соберите предложения
           </h2>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
             {test.payload.puzzles.map((puzzle, idx) => (

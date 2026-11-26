@@ -335,7 +335,7 @@ export const CONTEXT_THEME_META: Record<
   work_smalltalk: {
     label: 'Работа и общение',
     shortLabel: 'Работа',
-    description: 'Коллеги, встречи, переписка, дедлайны и непринуждённые беседы за кофе',
+    description: 'Коллеги, встречи, переписка, рабочие задачи и разговоры за кофе',
   },
   nature_outdoors: {
     label: 'Природа и отдых',
@@ -343,8 +343,8 @@ export const CONTEXT_THEME_META: Record<
     description: 'Юрмала, сосновые леса, тропы Сигулды, море, прогулки и выходные',
   },
   general: {
-    label: 'Общий контекст',
-    shortLabel: 'Общий',
-    description: 'Универсальные живые диалоги и ситуации на каждый день',
+    label: 'На каждый день',
+    shortLabel: 'Общая',
+    description: 'Обычные жизненные ситуации, друзья, дом и планы на неделю',
   },
 };

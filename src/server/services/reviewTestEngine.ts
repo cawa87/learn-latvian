@@ -351,7 +351,7 @@ ${wordsBlock}
     title_ru: parsed.title_ru || 'Итоговый тест за 5 уроков',
     intro_ru:
       parsed.intro_ru ||
-      'Персональный итоговый тест, объединяющий лексику и грамматику ваших последних 5 уроков.',
+      'Проверка слов и падежей из ваших последних 5 уроков.',
     covered_dates: coveredDates,
     covered_words: words.map((w) => ({
       word_id: w.id,

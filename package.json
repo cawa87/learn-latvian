@@ -13,7 +13,8 @@
     "start": "node dist/server/index.js",
     "seed": "tsx scripts/seed.ts",
     "seed:expand": "tsx scripts/seed.ts --expand",
-    "typecheck": "tsc --noEmit && tsc -p tsconfig.server.json --noEmit"
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.server.json --noEmit",
+    "test": "node scripts/smoke-test.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",

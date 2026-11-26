@@ -82,8 +82,8 @@ export function BentoDashboard({
           </div>
           <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
             {sessionPrepared
-              ? `В повторении сегодня: ${reusedCount} слов`
-              : `Уроков завершено: ${stats.completed_sessions_count}`}
+              ? `Повторяем сегодня: ${reusedCount} ${reusedCount === 1 ? 'слово' : reusedCount >= 2 && reusedCount <= 4 ? 'слова' : 'слов'}`
+              : `Пройдено уроков: ${stats.completed_sessions_count}`}
           </p>
         </div>
 
@@ -187,7 +187,7 @@ export function BentoDashboard({
           <div className="flex items-center gap-2">
             <SlidersHorizontal className="h-4 w-4 text-blue-600 dark:text-blue-400" />
             <span className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-              Цель и контекст урока
+              Настройки урока
             </span>
           </div>
 
@@ -199,7 +199,7 @@ export function BentoDashboard({
               className="inline-flex min-h-[36px] items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-blue-500/50 hover:text-blue-600 disabled:opacity-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:border-blue-400 cursor-pointer"
             >
               <RefreshCw className={`h-3.5 w-3.5 ${regenerating ? 'animate-spin' : ''}`} />
-              Обновить урок
+              Пересобрать урок
             </button>
           ) : null}
         </div>
@@ -234,7 +234,7 @@ export function BentoDashboard({
           <div className="space-y-1.5 sm:flex sm:flex-wrap sm:items-center sm:gap-1.5 sm:space-y-0">
             <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-500 sm:mr-1 dark:text-slate-400">
               <MapPin className="h-3.5 w-3.5" />
-              Контекст:
+              Тема:
             </span>
             <div className="grid grid-cols-2 gap-1.5 sm:flex sm:flex-wrap sm:items-center">
               {THEMES.map((theme) => {

@@ -115,8 +115,13 @@ export function SentencePuzzleBuilder({
     }
 
     if (userTokens.length < puzzle.correct_tokens.length) {
+      const missing = puzzle.correct_tokens.length - userTokens.length;
+      const missingWord =
+        missing % 10 === 1 && missing % 100 !== 11
+          ? 'слова'
+          : 'слов';
       messages.push(
-        `Не хватает ещё ${puzzle.correct_tokens.length - userTokens.length} сл. — добавьте недостающие слова из списка ниже.`
+        `Не хватает ещё ${missing} ${missingWord} — добавьте их из списка ниже.`
       );
       setFeedback({ kind: 'error', messages });
       return;
@@ -160,7 +165,7 @@ export function SentencePuzzleBuilder({
             «{puzzle.russian_prompt}»
           </p>
           <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
-            Выберите нужные блоки слов в правильном порядке. Среди вариантов есть лишние падежные формы-ловушки!
+            Соберите фразу по порядку — среди вариантов есть лишние слова с неправильными окончаниями.
           </p>
         </div>
 
@@ -298,8 +303,8 @@ export function SentencePuzzleBuilder({
           disabled={!solved}
           sublabel={
             solved
-              ? 'Задание успешно засчитано'
-              : 'Отметка появится автоматически после верной проверки'
+              ? 'Задание засчитано'
+              : 'Галочка поставится сама, когда соберёте фразу верно'
           }
         />
       </div>
