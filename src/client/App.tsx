@@ -1063,7 +1063,18 @@ export default function App() {
 
       <footer className="mx-auto mt-10 max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center justify-between gap-3 border-t border-slate-200/75 pt-5 text-xs text-slate-500 sm:flex-row dark:border-slate-800/80 dark:text-slate-400">
-          <span>Vārdu Rīga — ежедневная практика латышского языка</span>
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 sm:justify-start">
+            <span>Vārdu Rīga — ежедневная практика латышского языка</span>
+            <span aria-hidden="true" className="text-slate-300 dark:text-slate-700">
+              ·
+            </span>
+            <a
+              href="/privacy"
+              className="font-medium text-slate-500 underline-offset-2 transition hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white"
+            >
+              Политика конфиденциальности
+            </a>
+          </div>
           <button
             type="button"
             onClick={() => setFeedbackOpen(true)}

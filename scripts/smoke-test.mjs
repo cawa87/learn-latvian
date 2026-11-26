@@ -53,6 +53,11 @@ try {
   assert(health.status === 'ok', 'health.status should be ok');
   assert(health.words_count >= 100, `expected >= 100 starter words, got ${health.words_count}`);
 
+  const privacyRes = await fetch(`${baseUrl}/privacy`);
+  assert(privacyRes.status === 200, 'GET /privacy should return 200');
+  const privacyHtml = await privacyRes.text();
+  assert(privacyHtml.includes('Vārdu Rīga') && privacyHtml.includes('Privacy Policy'), 'privacy page should render expected content');
+
   const meRes = await fetch(`${baseUrl}/api/auth/me`);
   assert(meRes.status === 200, 'GET /api/auth/me should return 200');
   const me = await meRes.json();

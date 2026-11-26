@@ -66,6 +66,15 @@ export function LoginView({
             </button>
           ) : null}
         </div>
+
+        <p className="mt-6 text-xs text-slate-400 dark:text-slate-500">
+          <a
+            href="/privacy"
+            className="underline-offset-2 transition hover:text-slate-700 hover:underline dark:hover:text-slate-300"
+          >
+            Политика конфиденциальности
+          </a>
+        </p>
       </motion.div>
     </div>
   );

@@ -26,6 +26,7 @@ import {
   getAdminOverview,
   updateFeedbackStatus,
 } from './services/adminService.js';
+import { renderPrivacyPage } from './privacyPage.js';
 import {
   completeSession,
   getSessionById,
@@ -472,6 +473,10 @@ app.get('/api/images/:filename', (c) => {
       'Cache-Control': 'public, max-age=31536000, immutable',
     },
   });
+});
+
+app.get('/privacy', (c) => {
+  return c.html(renderPrivacyPage(config.adminEmail));
 });
 
 const clientDistDir = path.resolve(process.cwd(), 'dist/client');
